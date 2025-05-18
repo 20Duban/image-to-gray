@@ -1,1 +1,17 @@
 # image-to-gray
+
+## 🛠️ How to Use
+
+1. **Clone the repository:**
+
+```bash
+git clone ""
+cd repo-name
+
+pip install -r requirements.txt
+
+python main.py
+
+```
+
+### ⚠️ Note: Make sure to manually create the images and gray_images folders before running the script. Put your original images inside the images folder.
