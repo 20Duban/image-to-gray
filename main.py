@@ -1,7 +1,6 @@
 import cv2
 import pathlib
 import matplotlib
-import matplotlib.pyplot as plt
 
 from os import listdir
 from time import sleep
@@ -20,7 +19,7 @@ def main():
     file_names: list[str] = listdir(input_path)
     for file_name in file_names:
         try:
-            
+
             image = cv2.imread(str(input_path/file_name))
             image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
